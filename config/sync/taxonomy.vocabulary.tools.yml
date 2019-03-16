@@ -1,0 +1,9 @@
+uuid: 32b5c295-c5b5-4f08-9bc2-d9db85a5a2f0
+langcode: en
+status: true
+dependencies: {  }
+name: Tools
+vid: tools
+description: 'Tools used for the web dev project, such as: Drupal, HTML, CSS, and Git'
+hierarchy: 0
+weight: 0

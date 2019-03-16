@@ -1,0 +1,23 @@
+uuid: c7b5914b-fc28-4b71-8a2e-074124e6656d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_would_i_work_with_them_aga
+    - node.type.colleague
+id: node.colleague.field_would_i_work_with_them_aga
+field_name: field_would_i_work_with_them_aga
+entity_type: node
+bundle: colleague
+label: 'Work with them again?'
+description: 'Would I want to work with this person again?'
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Yes'
+  off_label: 'No'
+field_type: boolean

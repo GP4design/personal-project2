@@ -1,0 +1,23 @@
+uuid: 580290f7-5712-4193-91c9-2b7e504af81e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_featured
+    - node.type.web_development_project
+id: node.web_development_project.field_featured
+field_name: field_featured
+entity_type: node
+bundle: web_development_project
+label: Featured
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

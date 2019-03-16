@@ -1,0 +1,94 @@
+uuid: 956a6219-a60a-4749-943c-7627bfb84b76
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.web_development_project.body
+    - field.field.node.web_development_project.field_dates_of_development
+    - field.field.node.web_development_project.field_featured
+    - field.field.node.web_development_project.field_project_colleagues
+    - field.field.node.web_development_project.field_project_snapshots
+    - field.field.node.web_development_project.field_project_tools
+    - field.field.node.web_development_project.field_project_website
+    - node.type.web_development_project
+  module:
+    - datetime_range
+    - image
+    - link
+    - text
+    - user
+id: node.web_development_project.default
+targetEntityType: node
+bundle: web_development_project
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_dates_of_development:
+    weight: 104
+    label: above
+    settings:
+      separator: '-'
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: daterange_default
+    region: content
+  field_featured:
+    weight: 105
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_project_colleagues:
+    weight: 107
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_project_snapshots:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_project_tools:
+    weight: 106
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_project_website:
+    weight: 103
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

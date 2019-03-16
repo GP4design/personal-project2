@@ -1,0 +1,21 @@
+uuid: ac338f9c-12a6-445b-95cf-db35ee3ceeb3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_project_tools
+    - node.type.web_development_project
+id: node.web_development_project.field_project_tools
+field_name: field_project_tools
+entity_type: node
+bundle: web_development_project
+label: 'Project Tools'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings: {  }
+field_type: entity_reference

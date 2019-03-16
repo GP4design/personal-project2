@@ -1,0 +1,21 @@
+uuid: dbb0fb88-7fd7-41fa-aa8b-f2d608b93d4f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_base_city
+    - node.type.colleague
+  module:
+    - text
+id: node.colleague.field_base_city
+field_name: field_base_city
+entity_type: node
+bundle: colleague
+label: 'Base City'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

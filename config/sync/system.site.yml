@@ -1,0 +1,14 @@
+uuid: 0efb4546-e627-4ad3-97c7-70b2342f2753
+name: GP4Design
+mail: gp4design@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

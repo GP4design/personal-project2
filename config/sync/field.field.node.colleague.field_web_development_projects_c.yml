@@ -1,0 +1,29 @@
+uuid: 2c1ceba3-5e47-4ad5-869f-ded9ee72c3ae
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_web_development_projects_c
+    - node.type.colleague
+    - node.type.web_development_project
+id: node.colleague.field_web_development_projects_c
+field_name: field_web_development_projects_c
+entity_type: node
+bundle: colleague
+label: 'Web Development Projects Collaborated On'
+description: 'What projects did this colleague work with me on...?'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      web_development_project: web_development_project
+    sort:
+      field: field_dates_of_development.value
+      direction: DESC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,21 @@
+uuid: eae95537-44e1-4f65-bcaa-e07f3e23cbd4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_dates_of_development
+    - node.type.web_development_project
+  module:
+    - datetime_range
+id: node.web_development_project.field_dates_of_development
+field_name: field_dates_of_development
+entity_type: node
+bundle: web_development_project
+label: 'Dates of Development'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: daterange

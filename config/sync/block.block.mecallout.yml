@@ -1,0 +1,31 @@
+uuid: 2c9690da-76b0-4296-9363-c79abb6bef13
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:callout_image:a7be5d65-6bf4-436f-b39c-08ce06df2556'
+  module:
+    - block_content
+    - system
+  theme:
+    - bartik
+id: mecallout
+theme: bartik
+region: header
+weight: -9
+provider: null
+plugin: 'block_content:a7be5d65-6bf4-436f-b39c-08ce06df2556'
+settings:
+  id: 'block_content:a7be5d65-6bf4-436f-b39c-08ce06df2556'
+  label: 'Me Callout'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,21 @@
+uuid: 1337d1de-a9e9-45e4-9fef-5ffb405a107e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.banner_block
+    - field.storage.block_content.field_headline
+  module:
+    - text
+id: block_content.banner_block.field_headline
+field_name: field_headline
+entity_type: block_content
+bundle: banner_block
+label: Headline
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

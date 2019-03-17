@@ -1,0 +1,31 @@
+uuid: 8f922d9f-a81b-4d51-9cb9-88776795a086
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:callout_text:7464947b-21b3-49f9-8763-2f7a8ea80ebf'
+  module:
+    - block_content
+    - system
+  theme:
+    - bartik
+id: metextcallout
+theme: bartik
+region: header
+weight: -10
+provider: null
+plugin: 'block_content:7464947b-21b3-49f9-8763-2f7a8ea80ebf'
+settings:
+  id: 'block_content:7464947b-21b3-49f9-8763-2f7a8ea80ebf'
+  label: 'Me Text Callout'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

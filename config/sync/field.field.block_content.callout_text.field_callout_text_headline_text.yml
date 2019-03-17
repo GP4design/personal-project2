@@ -1,0 +1,21 @@
+uuid: 89825161-df8c-48e0-88f9-3b44dbebd172
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.callout_text
+    - field.storage.block_content.field_callout_text_headline_text
+  module:
+    - text
+id: block_content.callout_text.field_callout_text_headline_text
+field_name: field_callout_text_headline_text
+entity_type: block_content
+bundle: callout_text
+label: 'Callout Text Headline Text'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

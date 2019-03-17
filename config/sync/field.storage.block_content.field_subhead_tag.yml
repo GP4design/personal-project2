@@ -1,0 +1,20 @@
+uuid: eadc397c-a134-460d-9415-f1a13d2f06ed
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - text
+id: block_content.field_subhead_tag
+field_name: field_subhead_tag
+entity_type: block_content
+type: text
+settings:
+  max_length: 140
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,24 @@
+uuid: cc2d7112-9628-432d-924f-2c4681d52752
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.callout_image
+    - field.field.block_content.callout_image.field_image
+  module:
+    - image
+id: block_content.callout_image.default
+targetEntityType: block_content
+bundle: callout_image
+mode: default
+content:
+  field_image:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }

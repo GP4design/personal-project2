@@ -1,0 +1,21 @@
+uuid: dab523e4-f32b-425b-a30a-2c78f3318031
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.banner_block
+    - field.storage.block_content.field_subhead_tag
+  module:
+    - text
+id: block_content.banner_block.field_subhead_tag
+field_name: field_subhead_tag
+entity_type: block_content
+bundle: banner_block
+label: SubHead-Tag
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

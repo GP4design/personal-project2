@@ -1,0 +1,31 @@
+uuid: 2d8b41e2-d0c1-4cbe-828f-7291341d299d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:list_block:0b848969-107c-4d70-bc6d-70ff9d01de88'
+  module:
+    - block_content
+    - system
+  theme:
+    - bartik
+id: classes
+theme: bartik
+region: content
+weight: -6
+provider: null
+plugin: 'block_content:0b848969-107c-4d70-bc6d-70ff9d01de88'
+settings:
+  id: 'block_content:0b848969-107c-4d70-bc6d-70ff9d01de88'
+  label: Classes
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

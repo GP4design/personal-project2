@@ -1,0 +1,8 @@
+uuid: 41f9367c-4c80-4999-9be2-f4bc6ec8942e
+langcode: en
+status: true
+dependencies: {  }
+id: list_block
+label: 'List Block'
+revision: 0
+description: 'custom block type that lists the tools and skills capable of doing/demonstrating'

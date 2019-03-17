@@ -1,0 +1,8 @@
+uuid: 9beec39f-b1d9-4528-9171-7aefdcb0c552
+langcode: en
+status: true
+dependencies: {  }
+id: banner_block
+label: 'Banner block'
+revision: 0
+description: 'Call to Action banner'

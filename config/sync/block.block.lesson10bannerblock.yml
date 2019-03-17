@@ -1,0 +1,31 @@
+uuid: 884eae30-2fd1-48cc-8d0e-736de3facdaf
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:banner_block:d8afff48-beec-4278-badb-059cde135e96'
+  module:
+    - block_content
+    - system
+  theme:
+    - bartik
+id: lesson10bannerblock
+theme: bartik
+region: header
+weight: -11
+provider: null
+plugin: 'block_content:d8afff48-beec-4278-badb-059cde135e96'
+settings:
+  id: 'block_content:d8afff48-beec-4278-badb-059cde135e96'
+  label: 'Lesson 10: Banner Block'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

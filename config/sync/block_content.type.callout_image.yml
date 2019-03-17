@@ -1,0 +1,8 @@
+uuid: feb3a711-6076-4c77-9b17-b09725dc6909
+langcode: en
+status: true
+dependencies: {  }
+id: callout_image
+label: 'Callout Image'
+revision: 0
+description: 'creates an image callout'

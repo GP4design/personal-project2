@@ -1,0 +1,31 @@
+uuid: c257753c-252b-4bde-87be-239ddffa4a4e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:list_block:52ed5f99-8d5a-45b3-a70a-67da4ef06758'
+  module:
+    - block_content
+    - system
+  theme:
+    - bartik
+id: skills
+theme: bartik
+region: content
+weight: -7
+provider: null
+plugin: 'block_content:52ed5f99-8d5a-45b3-a70a-67da4ef06758'
+settings:
+  id: 'block_content:52ed5f99-8d5a-45b3-a70a-67da4ef06758'
+  label: Skills
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

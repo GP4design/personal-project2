@@ -1,0 +1,8 @@
+uuid: b6449be0-b805-457a-9a88-6bfd2b9f1efb
+langcode: en
+status: true
+dependencies: {  }
+id: callout_text
+label: 'Callout Text'
+revision: 0
+description: 'callout box for text headline/pullquote'
